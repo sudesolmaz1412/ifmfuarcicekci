@@ -203,13 +203,53 @@ footer{background:#241c1a;color:#e7dbd8;padding:35px 0 95px}
 }
 </style>
 
+
+<style id="global-whatsapp-button-style">
+.global-whatsapp-button{
+  position:fixed;
+  right:22px;
+  bottom:22px;
+  width:62px;
+  height:62px;
+  border-radius:50%;
+  background:#25D366;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 8px 28px rgba(0,0,0,.22);
+  z-index:99999;
+  transition:transform .2s ease, box-shadow .2s ease;
+}
+.global-whatsapp-button:hover{
+  transform:scale(1.08);
+  box-shadow:0 10px 32px rgba(0,0,0,.28);
+}
+.global-whatsapp-button svg{
+  width:34px;
+  height:34px;
+  fill:#fff;
+}
+@media(max-width:800px){
+  .global-whatsapp-button{
+    width:56px;
+    height:56px;
+    right:16px;
+    bottom:72px;
+  }
+  .global-whatsapp-button svg{
+    width:31px;
+    height:31px;
+  }
+}
+</style>
+
 </head>
 
 <body>
 <header>
   <div class="container nav">
     <a class="logo" href="/">İFM <span>Fuar Çiçekçi</span></a>
-    <a class="phone" href="tel:+905307755182">0530 775 51 82</a>
+    <a class="phone" href="tel:+905386858876">0538 685 88 76</a>
   </div>
 </header>
 
@@ -220,8 +260,8 @@ footer{background:#241c1a;color:#e7dbd8;padding:35px 0 95px}
     <h1>İFM Fuar Çelengi</h1>
     <p>İstanbul Fuar Merkezi&#x27;ndeki fuar, açılış ve kurumsal organizasyonlara çelenk gönderimini firma ve stand bilgileri üzerinden planlayın.</p>
     <div class="buttons">
-      <a class="btn primary" href="tel:+905307755182">Hemen Ara</a>
-      <a class="btn whatsapp" href="https://wa.me/905307755182?text=Merhaba%2C%20%C4%B0FM%20i%C3%A7in%20%C3%A7i%C3%A7ek%20g%C3%B6nderimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan Yaz</a>
+      <a class="btn primary" href="tel:+905386858876">Hemen Ara</a>
+      <a class="btn whatsapp" href="https://wa.me/905386858876?text=Merhaba%2C%20%C4%B0FM%20i%C3%A7in%20%C3%A7i%C3%A7ek%20g%C3%B6nderimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan Yaz</a>
     </div>
   </div>
 </section>
@@ -299,7 +339,7 @@ footer{background:#241c1a;color:#e7dbd8;padding:35px 0 95px}
     <h2>İFM'deki gönderiminiz için bizimle iletişime geçin.</h2>
     <p>Fuar adı, firma adı ve stand bilgilerini paylaşarak detayları birlikte planlayalım.</p>
     <div class="buttons" style="justify-content:center">
-      <a class="btn whatsapp" href="https://wa.me/905307755182?text=Merhaba%2C%20%C4%B0FM%20i%C3%A7in%20%C3%A7i%C3%A7ek%20g%C3%B6nderimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan Yaz</a>
+      <a class="btn whatsapp" href="https://wa.me/905386858876?text=Merhaba%2C%20%C4%B0FM%20i%C3%A7in%20%C3%A7i%C3%A7ek%20g%C3%B6nderimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp'tan Yaz</a>
       <a class="btn" href="https://cicek444.com/" target="_blank" rel="noopener" style="background:#fff">Çiçek444'ü İncele</a>
     </div>
   </div>
@@ -380,10 +420,25 @@ footer{background:#241c1a;color:#e7dbd8;padding:35px 0 95px}
 </footer>
 
 <div class="mobile-bar">
-  <a href="tel:+905307755182">☎ Ara</a>
-  <a href="https://wa.me/905307755182?text=Merhaba%2C%20%C4%B0FM%20i%C3%A7in%20%C3%A7i%C3%A7ek%20g%C3%B6nderimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp</a>
+  <a href="tel:+905386858876">☎ Ara</a>
+  <a href="https://wa.me/905386858876?text=Merhaba%2C%20%C4%B0FM%20i%C3%A7in%20%C3%A7i%C3%A7ek%20g%C3%B6nderimi%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener">WhatsApp</a>
   <a href="https://cicek444.com/" target="_blank" rel="noopener">Çiçek444</a>
 </div>
+
+
+<a
+  class="global-whatsapp-button"
+  href="https://wa.me/905386858876?text=Merhaba%2C%20%C4%B0FM%20fuar%C4%B1%20i%C3%A7in%20%C3%A7i%C3%A7ek%20sipari%C5%9Fi%20vermek%20istiyorum."
+  target="_blank"
+  rel="noopener"
+  aria-label="WhatsApp ile iletişime geç"
+  title="WhatsApp"
+>
+<svg viewBox="0 0 32 32" aria-hidden="true">
+<path d="M19.11 17.21c-.27-.14-1.6-.79-1.85-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.15-.42-2.19-1.35-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.42.12-.55.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.48.07-.73.34-.25.27-.95.93-.95 2.26s.97 2.62 1.11 2.8c.14.18 1.91 2.92 4.63 4.1.65.28 1.15.45 1.54.57.65.21 1.24.18 1.71.11.52-.08 1.6-.65 1.83-1.29.23-.63.23-1.17.16-1.29-.07-.11-.25-.18-.52-.31z"/>
+<path d="M16.03 3C8.84 3 3 8.75 3 15.84c0 2.26.6 4.47 1.73 6.41L3 29l6.95-1.8a13.14 13.14 0 0 0 6.07 1.48h.01C23.21 28.68 29 22.93 29 15.84 29 8.75 23.21 3 16.03 3zm0 23.51h-.01a10.93 10.93 0 0 1-5.57-1.52l-.4-.24-4.12 1.07 1.1-4-.26-.41a10.58 10.58 0 0 1-1.64-5.67c0-5.87 4.89-10.65 10.91-10.65 2.91 0 5.65 1.11 7.71 3.13a10.45 10.45 0 0 1 3.2 7.53c-.01 5.88-4.9 10.66-10.92 10.66z"/>
+</svg>
+</a>
 
 </body>
 </html>
