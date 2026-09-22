@@ -93,4 +93,11 @@
     <priority>0.90</priority>
   </url>
 
+
+  <url>
+    <loc>https://ifmfuarcicek.com/maktek-fuar-standina-cicek/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
 </urlset>
