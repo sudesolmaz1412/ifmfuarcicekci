@@ -191,4 +191,11 @@
     <priority>0.85</priority>
   </url>
 
+
+  <url>
+    <loc>https://ifmfuarcicek.com/ifm-fuar-tebrik-cicegi/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
 </urlset>
