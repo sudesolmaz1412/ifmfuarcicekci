@@ -3,48 +3,565 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AYMOD Fuar Çiçek Gönder | AYMOD 2026 Fuar Standına Çiçek</title>
-<meta name="description" content="AYMOD 2026 fuarına çiçek gönderimi. İstanbul Fuar Merkezindeki AYMOD katılımcı firma standına kurumsal çiçek, tebrik aranjmanı ve açılış çiçeği göndermek için ulaşın.">
+
+<title>AYMOD Fuar Çiçek Gönder | AYMOD 2026 İstanbul</title>
+
+<meta name="description" content="AYMOD fuar çiçek gönder. AYMOD 2026 İstanbul Fuar Merkezindeki katılımcı firma standına kurumsal çiçek, açılış çiçeği ve tebrik çiçeği gönderin.">
+
 <link rel="canonical" href="https://ifmfuarcicek.com/aymod-fuar-cicek-gonder/">
+
+<meta property="og:title" content="AYMOD Fuar Çiçek Gönder | AYMOD 2026">
+<meta property="og:description" content="AYMOD katılımcı firma standına kurumsal çiçek gönderimi.">
+<meta property="og:image" content="https://ifmfuarcicek.com/assets/aymod/aymod-cicek.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ifmfuarcicek.com/aymod-fuar-cicek-gonder/">
 
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;background:#f7f2e9;color:#171717;line-height:1.7}
+html{scroll-behavior:smooth}
+
+body{
+margin:0;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+background:#f5f1e9;
+color:#151515;
+line-height:1.7
+}
+
 a{text-decoration:none}
-.wrap{width:min(1120px,92%);margin:auto}
-.hero{min-height:650px;background:linear-gradient(135deg,#090909,#20190d);color:white;display:flex;align-items:center;padding:80px 0}
-.badge{display:inline-block;border:1px solid #c9a85c;color:#e5c879;padding:8px 15px;border-radius:30px;font-size:13px;letter-spacing:1px}
-h1{font-size:clamp(42px,7vw,82px);line-height:1.02;margin:22px 0;max-width:950px}
-.hero p{font-size:19px;color:#ddd;max-width:760px}
-.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
-.primary,.secondary{padding:16px 23px;border-radius:10px;font-weight:700;display:inline-block}
-.primary{background:#c9a85c;color:#111}
-.secondary{border:1px solid #c9a85c;color:#fff}
-.info{background:#c9a85c;padding:20px 0}
-.infoGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center;font-weight:700}
-.section{padding:75px 0}
-.section.white{background:white}
-.eyebrow{font-size:13px;font-weight:800;letter-spacing:2px;color:#947525;margin-bottom:12px}
-h2{font-size:clamp(30px,4vw,48px);line-height:1.15;margin:0 0 20px}
-p{font-size:17px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:32px}
-.box{background:white;border:1px solid #e1d7c5;border-radius:18px;padding:28px}
-.box strong{font-size:22px;display:block;margin-bottom:10px}
-.dark{background:#111;color:white}
-.dark p{color:#d5d5d5}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:30px}
-.step{border-top:2px solid #c9a85c;padding-top:20px}
-.num{font-size:42px;color:#c9a85c;font-weight:800}
-.links a{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ddd;padding:18px 0;color:#171717;font-weight:700}
-.final{text-align:center;background:#c9a85c;padding:75px 0}
-.final .primary{background:#111;color:white}
-.final .secondary{border-color:#111;color:#111}
-.fixed{position:fixed;right:20px;bottom:20px;background:#25D366;color:white;padding:15px 19px;border-radius:40px;font-weight:800;z-index:50;box-shadow:0 5px 25px #0004}
-@media(max-width:760px){
-.infoGrid,.grid,.steps{grid-template-columns:1fr}
-.hero{min-height:auto;padding:90px 0}
-h1{font-size:46px}
-.fixed{right:12px;bottom:12px}
+img{display:block;width:100%}
+.wrap{width:min(1180px,92%);margin:auto}
+
+.top{
+position:absolute;
+top:0;
+left:0;
+right:0;
+z-index:30;
+padding:25px 0
+}
+
+.topInner{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:20px
+}
+
+.brand{
+color:white;
+font-size:14px;
+font-weight:950;
+letter-spacing:2px
+}
+
+.topText{
+color:#ccc;
+font-size:13px
+}
+
+.hero{
+position:relative;
+overflow:hidden;
+background:#070707;
+color:white;
+padding:125px 0 85px
+}
+
+.hero:before{
+content:"";
+position:absolute;
+inset:0;
+background:
+radial-gradient(circle at 8% 20%,rgba(207,166,79,.24),transparent 34%),
+radial-gradient(circle at 85% 70%,rgba(145,95,40,.14),transparent 35%),
+linear-gradient(135deg,#070707,#1b160e 65%,#080808)
+}
+
+.heroGrid{
+position:relative;
+display:grid;
+grid-template-columns:1.02fr .98fr;
+gap:62px;
+align-items:center
+}
+
+.kicker{
+display:inline-flex;
+align-items:center;
+gap:9px;
+padding:8px 14px;
+border:1px solid rgba(215,178,99,.48);
+border-radius:100px;
+color:#e7c777;
+font-size:12px;
+font-weight:900;
+letter-spacing:1.5px
+}
+
+.kicker:before{
+content:"";
+width:7px;
+height:7px;
+border-radius:50%;
+background:#d7ae5b
+}
+
+h1{
+font-size:clamp(47px,6.5vw,82px);
+line-height:.98;
+letter-spacing:-3px;
+margin:24px 0
+}
+
+.heroText{
+font-size:19px;
+color:#d3d3d3;
+max-width:720px
+}
+
+.heroText strong{color:white}
+
+.actions{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:30px
+}
+
+.btn{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+padding:16px 22px;
+border-radius:12px;
+font-weight:900;
+transition:.2s
+}
+
+.btn:hover{
+transform:translateY(-2px)
+}
+
+.gold{
+background:#d7b36a;
+color:#111
+}
+
+.outline{
+border:1px solid #786b4b;
+color:white
+}
+
+.heroVisual{
+position:relative;
+height:590px
+}
+
+.heroPhoto{
+height:100%;
+object-fit:cover;
+border-radius:28px;
+box-shadow:0 40px 90px rgba(0,0,0,.5)
+}
+
+.heroOverlay{
+position:absolute;
+inset:0;
+border-radius:28px;
+background:linear-gradient(to top,rgba(0,0,0,.82),rgba(0,0,0,.08) 60%)
+}
+
+.heroCard{
+position:absolute;
+left:24px;
+right:24px;
+bottom:24px;
+padding:23px;
+border-radius:18px;
+background:rgba(9,9,9,.76);
+border:1px solid rgba(255,255,255,.15);
+backdrop-filter:blur(14px)
+}
+
+.heroCard small{
+display:block;
+font-size:12px;
+font-weight:900;
+letter-spacing:1px;
+color:#e3c273
+}
+
+.heroCard strong{
+font-size:22px;
+display:block;
+margin-top:6px
+}
+
+.stats{
+background:#d7b36a;
+padding:23px 0
+}
+
+.statsGrid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:18px
+}
+
+.stat{text-align:center}
+
+.stat strong{
+display:block;
+font-size:24px;
+line-height:1.1
+}
+
+.stat span{
+font-size:11px;
+font-weight:900;
+letter-spacing:.8px
+}
+
+.section{
+padding:90px 0
+}
+
+.white{background:white}
+
+.dark{
+background:#0d0d0d;
+color:white
+}
+
+.label{
+font-size:12px;
+font-weight:950;
+letter-spacing:2px;
+color:#9c762a;
+margin-bottom:12px
+}
+
+h2{
+font-size:clamp(34px,4vw,53px);
+line-height:1.07;
+letter-spacing:-1.5px;
+margin:0 0 22px
+}
+
+.lead{
+font-size:18px;
+color:#5f5f5f;
+max-width:830px
+}
+
+.dark .lead{
+color:#bcbcbc
+}
+
+.photoGrid{
+display:grid;
+grid-template-columns:1.1fr .9fr;
+gap:27px;
+margin-top:42px
+}
+
+.photoBig,
+.photoSmall{
+position:relative;
+overflow:hidden;
+border-radius:24px;
+background:#ddd
+}
+
+.photoBig{
+height:535px
+}
+
+.photoSmall{
+height:254px
+}
+
+.photoBig img,
+.photoSmall img{
+height:100%;
+object-fit:cover
+}
+
+.photoSide{
+display:grid;
+gap:27px
+}
+
+.caption{
+position:absolute;
+left:18px;
+right:18px;
+bottom:18px;
+background:rgba(0,0,0,.72);
+color:white;
+padding:17px;
+border-radius:14px;
+backdrop-filter:blur(10px)
+}
+
+.caption strong{
+display:block;
+font-size:18px
+}
+
+.caption span{
+font-size:13px;
+color:#ccc
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+margin-top:40px
+}
+
+.card{
+padding:30px;
+border:1px solid #e0d8ca;
+border-radius:20px;
+background:#fff;
+box-shadow:0 15px 40px rgba(0,0,0,.04)
+}
+
+.cardNo{
+font-size:12px;
+font-weight:950;
+color:#aa812f
+}
+
+.card h3{
+font-size:22px;
+margin:11px 0 8px
+}
+
+.card p{
+margin:0;
+color:#666
+}
+
+.process{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:1px;
+background:#333;
+border-radius:22px;
+overflow:hidden;
+margin-top:42px
+}
+
+.step{
+background:#171717;
+padding:35px
+}
+
+.stepNo{
+font-size:43px;
+font-weight:950;
+color:#d7b36a
+}
+
+.step h3{
+font-size:21px;
+margin:10px 0
+}
+
+.step p{
+margin:0;
+color:#aaa
+}
+
+.feature{
+display:grid;
+grid-template-columns:.9fr 1.1fr;
+gap:55px;
+align-items:center
+}
+
+.feature img{
+height:510px;
+object-fit:cover;
+border-radius:25px
+}
+
+.checks{
+display:grid;
+gap:12px;
+margin-top:27px
+}
+
+.check{
+padding:16px 18px;
+border-radius:13px;
+background:#f7f3eb;
+border:1px solid #dfd5c3;
+font-weight:750
+}
+
+.links{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:12px;
+margin-top:35px
+}
+
+.links a{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:15px;
+background:#f1ece3;
+padding:20px;
+border-radius:15px;
+color:#171717;
+font-weight:850
+}
+
+.links a:hover{
+background:#e7dcc6
+}
+
+.faq{
+display:grid;
+gap:12px;
+margin-top:35px
+}
+
+.faqItem{
+background:white;
+border:1px solid #ded7cb;
+border-radius:16px;
+padding:25px
+}
+
+.faqItem h3{
+margin:0 0 8px;
+font-size:20px
+}
+
+.faqItem p{
+margin:0;
+color:#666
+}
+
+.final{
+background:linear-gradient(135deg,#d9b76e,#ba8b35);
+text-align:center;
+padding:95px 0
+}
+
+.final h2{
+font-size:clamp(37px,5vw,60px);
+line-height:1.04;
+max-width:870px;
+margin:0 auto 20px
+}
+
+.fixedWa{
+position:fixed;
+right:20px;
+bottom:20px;
+width:62px;
+height:62px;
+border-radius:50%;
+background:#25D366;
+color:white;
+font-size:28px;
+display:flex;
+align-items:center;
+justify-content:center;
+z-index:100;
+box-shadow:0 15px 45px rgba(0,0,0,.32)
+}
+
+@media(max-width:850px){
+
+.heroGrid,
+.photoGrid,
+.feature{
+grid-template-columns:1fr
+}
+
+.heroVisual{
+height:460px
+}
+
+.statsGrid{
+grid-template-columns:repeat(2,1fr)
+}
+
+.cards,
+.process{
+grid-template-columns:1fr
+}
+
+.links{
+grid-template-columns:1fr
+}
+
+.photoBig{
+height:420px
+}
+
+}
+
+@media(max-width:520px){
+
+.hero{
+padding-top:105px
+}
+
+h1{
+font-size:45px;
+letter-spacing:-2px
+}
+
+.heroVisual{
+height:370px
+}
+
+.heroCard{
+left:14px;
+right:14px;
+bottom:14px
+}
+
+.section{
+padding:65px 0
+}
+
+.photoBig{
+height:340px
+}
+
+.photoSmall{
+height:220px
+}
+
+.feature img{
+height:340px
+}
+
+.btn{
+width:100%
+}
+
+.topText{
+display:none
+}
+
+.fixedWa{
+right:13px;
+bottom:13px
+}
+
 }
 </style>
 
@@ -52,139 +569,535 @@ h1{font-size:46px}
 {
 "@context":"https://schema.org",
 "@type":"Service",
-"name":"AYMOD 2026 Fuar Çiçek Gönderimi",
-"serviceType":"Fuar standına çiçek gönderimi",
+"name":"AYMOD Fuar Çiçek Gönderimi",
+"serviceType":"AYMOD fuar standına çiçek gönderimi",
 "areaServed":"İstanbul",
+"url":"https://ifmfuarcicek.com/aymod-fuar-cicek-gonder/",
 "provider":{
 "@type":"Organization",
 "name":"İFM Fuar Çiçek"
 }
 }
 </script>
+
+<script type="application/ld+json">
+{
+"@context":"https://schema.org",
+"@type":"FAQPage",
+"mainEntity":[
+{
+"@type":"Question",
+"name":"AYMOD fuarına çiçek nasıl gönderilir?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Çiçek gönderilecek katılımcı firmanın adı, salon ve stand bilgisi ile gönderim planlanabilir."
+}
+},
+{
+"@type":"Question",
+"name":"AYMOD katılımcı firmasına kurumsal çiçek gönderilebilir mi?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"Müşteri, bayi, tedarikçi veya iş ortağı olan AYMOD katılımcılarına şirket adına kurumsal tebrik çiçeği gönderimi planlanabilir."
+}
+},
+{
+"@type":"Question",
+"name":"AYMOD fuarı nerede düzenleniyor?",
+"acceptedAnswer":{
+"@type":"Answer",
+"text":"AYMOD 2026 İstanbul Fuar Merkezinde düzenlenmektedir."
+}
+}
+]
+}
+</script>
+
 </head>
 
 <body>
 
+<header class="top">
+<div class="wrap topInner">
+
+<a class="brand" href="/">İFM FUAR ÇİÇEK</a>
+
+<div class="topText">
+AYMOD 2026 • İstanbul Fuar Merkezi
+</div>
+
+</div>
+</header>
+
 <section class="hero">
-<div class="wrap">
-<span class="badge">7 - 10 EKİM 2026 • İSTANBUL FUAR MERKEZİ</span>
-<h1>AYMOD Fuarına Çiçek Gönder</h1>
-<p>AYMOD 2026 fuarına katılan müşterinizi, bayinizi, tedarikçinizi veya iş ortağınızı İstanbul Fuar Merkezindeki standında çiçekle tebrik edin.</p>
+<div class="wrap heroGrid">
+
+<div>
+
+<div class="kicker">
+AYMOD 2026 • FUAR ÇİÇEK GÖNDER
+</div>
+
+<h1>AYMOD Fuar Çiçek Gönder</h1>
+
+<p class="heroText">
+AYMOD fuarına katılan <strong>müşterinizi, bayinizi,
+tedarikçinizi veya iş ortağınızı</strong> İstanbul Fuar
+Merkezindeki standında premium bir tebrik çiçeği ile kutlayın.
+</p>
 
 <div class="actions">
-<a class="primary" href="https://wa.me/905386858876">WhatsApptan Sipariş Ver</a>
-<a class="secondary" href="tel:+905386858876">📞 0538 685 88 76</a>
+
+<a class="btn gold" href="https://wa.me/905386858876" aria-label="Mesaj ile sipariş">
+💬
+<span>Çiçek Siparişi Ver</span>
+</a>
+
+<a class="btn outline" href="tel:+905386858876">
+📞 0538 685 88 76
+</a>
+
 </div>
+
+</div>
+
+<div class="heroVisual">
+
+<img class="heroPhoto"
+src="../assets/aymod/aymod-cicek.jpg"
+alt="AYMOD fuarına gönderilecek premium kurumsal çiçek">
+
+<div class="heroOverlay"></div>
+
+<div class="heroCard">
+<small>7 - 10 EKİM 2026</small>
+<strong>İstanbul Fuar Merkezi • Salon 5, 6 ve 7</strong>
+</div>
+
+</div>
+
 </div>
 </section>
 
-<section class="info">
-<div class="wrap infoGrid">
-<div>AYMOD 2026</div>
-<div>7 - 10 Ekim</div>
-<div>Salon 5 • 6 • 7</div>
-<div>İstanbul Fuar Merkezi</div>
-</div>
-</section>
+<section class="stats">
+<div class="wrap statsGrid">
 
-<section class="section">
-<div class="wrap">
-<div class="eyebrow">AYMOD FUAR ÇİÇEK GÖNDER</div>
-<h2>AYMOD 2026 Katılımcı Firmasına Çiçek</h2>
-
-<p>AYMOD Uluslararası Ayakkabı Moda Fuarına katılan bir firmanın standına kurumsal tebrik çiçeği göndermek istiyorsanız firma adı, salon ve stand bilgisini bize iletebilirsiniz.</p>
-
-<p>Müşterinizin, iş ortağınızın, bayinizin veya tedarikçinizin AYMOD fuar katılımını şirketiniz adına çiçekle tebrik edebilirsiniz.</p>
-
-<div class="grid">
-<div class="box">
-<strong>Firma Standına Çiçek</strong>
-AYMOD katılımcı firma standına doğrudan tebrik gönderimi için firma, salon ve stand bilgilerini iletin.
+<div class="stat">
+<strong>250+</strong>
+<span>KATILIMCI FİRMA</span>
 </div>
 
-<div class="box">
-<strong>Kurumsal Tebrik</strong>
-Şirketiniz adına gönderilecek tebrik kartı mesajını sipariş sırasında paylaşabilirsiniz.
+<div class="stat">
+<strong>750+</strong>
+<span>MARKA</span>
 </div>
 
-<div class="box">
-<strong>Fuar Açılış Çiçeği</strong>
-AYMOD fuarına katılan müşterinizin veya iş ortağınızın stand açılışını çiçekle tebrik edebilirsiniz.
-</div>
-</div>
-</div>
-</section>
-
-<section class="section dark">
-<div class="wrap">
-<div class="eyebrow">AYMOD STAND TESLİMATI</div>
-<h2>Fuar Standına Çiçek Nasıl Gönderilir?</h2>
-
-<div class="steps">
-<div class="step">
-<div class="num">01</div>
-<h3>Firma Adı</h3>
-<p>Çiçek gönderilecek AYMOD katılımcı firmasının adını iletin.</p>
+<div class="stat">
+<strong>15.000+</strong>
+<span>ZİYARETÇİ</span>
 </div>
 
-<div class="step">
-<div class="num">02</div>
-<h3>Salon ve Stand</h3>
-<p>Varsa salon ve stand numarasını WhatsApp üzerinden gönderin.</p>
+<div class="stat">
+<strong>40.000 m²</strong>
+<span>FUAR ALANI</span>
 </div>
 
-<div class="step">
-<div class="num">03</div>
-<h3>Tebrik Mesajı</h3>
-<p>Şirket veya kişi adına karta yazılacak mesajı paylaşın.</p>
-</div>
-</div>
 </div>
 </section>
 
 <section class="section white">
 <div class="wrap">
-<div class="eyebrow">AYMOD 2026</div>
-<h2>AYMOD Fuarında İş Ortağınızı Tebrik Edin</h2>
 
-<p>AYMOD; ayakkabı, çanta ve ilgili moda ürünleri sektöründeki çok sayıda markayı İstanbul Fuar Merkezinde bir araya getiriyor. Fuar katılımı yapan bir müşteriye veya iş ortağına gönderilecek çiçek, kurumsal tebrik amacıyla tercih edilebilir.</p>
-
-<p>Gönderimin doğru firma standına yönlendirilebilmesi için özellikle firma adı, salon ve stand bilgilerinin sipariş sırasında paylaşılması önemlidir.</p>
-
-<div class="actions">
-<a class="primary" href="https://wa.me/905386858876">AYMOD İçin Çiçek Siparişi</a>
-<a class="primary" href="tel:+905386858876">📞 Hemen Ara</a>
+<div class="label">
+AYMOD FUAR ÇİÇEK GÖNDERİMİ
 </div>
+
+<h2>AYMODdaki firma standına profesyonel çiçek gönderimi</h2>
+
+<p class="lead">
+AYMOD 2026 fuarında yer alan müşterinizi veya iş ortağınızı
+şirketiniz adına tebrik edebilirsiniz. Firma adı, salon ve
+stand bilgisini ileterek gönderimin ilgili standa yönelik
+planlanmasını sağlayabilirsiniz.
+</p>
+
+<div class="photoGrid">
+
+<div class="photoBig">
+
+<img
+src="../assets/aymod/aymod-cicek.jpg"
+alt="AYMOD kurumsal fuar çiçeği"
+loading="lazy">
+
+<div class="caption">
+<strong>Premium fuar çiçeği</strong>
+<span>Müşteri ve iş ortaklarına kurumsal tebrik</span>
+</div>
+
+</div>
+
+<div class="photoSide">
+
+<div class="photoSmall">
+
+<img
+src="../assets/aymod/aymod-fuar.jpg"
+alt="AYMOD fuar standı"
+loading="lazy">
+
+<div class="caption">
+<strong>Firma standı teslimatı</strong>
+<span>Salon ve stand bilgisini paylaşın</span>
+</div>
+
+</div>
+
+<div class="photoSmall">
+
+<img
+src="../assets/aymod/aymod-premium-ayakkabi.jpg"
+alt="AYMOD ayakkabı moda fuarı"
+loading="lazy">
+
+<div class="caption">
+<strong>AYMOD 2026</strong>
+<span>Ayakkabı ve moda sektörünün buluşması</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 </section>
 
 <section class="section">
 <div class="wrap">
-<div class="eyebrow">İSTANBUL FUAR MERKEZİ</div>
-<h2>Fuar Çiçek Gönderimi</h2>
+
+<div class="label">
+KURUMSAL FUAR TEBRİĞİ
+</div>
+
+<h2>Kimlere AYMOD fuar çiçeği gönderilebilir?</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<div class="cardNo">01</div>
+
+<h3>Müşterinize</h3>
+
+<p>
+AYMOD fuarına katılan müşterinizin standını şirketiniz
+adına tebrik edebilirsiniz.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="cardNo">02</div>
+
+<h3>Bayi ve iş ortağınıza</h3>
+
+<p>
+Bayinizin veya iş ortağınızın fuar katılımını
+kurumsal bir jestle kutlayabilirsiniz.
+</p>
+
+</div>
+
+<div class="card">
+
+<div class="cardNo">03</div>
+
+<h3>Üretici ve tedarikçinize</h3>
+
+<p>
+Çalıştığınız üretici veya tedarikçi firmaya
+AYMOD standında tebrik çiçeği gönderebilirsiniz.
+</p>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="section dark">
+<div class="wrap">
+
+<div class="label">
+AYMOD STAND TESLİMATI
+</div>
+
+<h2>3 adımda AYMOD fuar standına çiçek</h2>
+
+<p class="lead">
+Gönderim için uzun formlar doldurmanıza gerek yok.
+Katılımcı firma bilgilerini iletmeniz yeterlidir.
+</p>
+
+<div class="process">
+
+<div class="step">
+
+<div class="stepNo">01</div>
+
+<h3>Firma adı</h3>
+
+<p>
+Çiçek gönderilecek AYMOD katılımcısının firma veya marka adını gönderin.
+</p>
+
+</div>
+
+<div class="step">
+
+<div class="stepNo">02</div>
+
+<h3>Salon ve stand</h3>
+
+<p>
+Varsa firmanın salon ve stand numarasını sipariş bilgisine ekleyin.
+</p>
+
+</div>
+
+<div class="step">
+
+<div class="stepNo">03</div>
+
+<h3>Tebrik mesajı</h3>
+
+<p>
+Gönderen şirket adı ve karta yazılacak kurumsal mesajı iletin.
+</p>
+
+</div>
+
+</div>
+
+<div class="actions">
+
+<a class="btn gold" href="https://wa.me/905386858876" aria-label="Firma bilgisi gönder">
+💬
+<span>Firma Bilgisi Gönder</span>
+</a>
+
+<a class="btn outline" href="tel:+905386858876">
+📞 Hemen Ara
+</a>
+
+</div>
+
+</div>
+</section>
+
+<section class="section white">
+<div class="wrap feature">
+
+<div>
+
+<img
+src="../assets/aymod/aymod-cicek.jpg"
+alt="AYMOD fuar açılış çiçeği"
+loading="lazy">
+
+</div>
+
+<div>
+
+<div class="label">
+AYMOD AÇILIŞ VE TEBRİK ÇİÇEĞİ
+</div>
+
+<h2>Stand açılışını ve fuar katılımını tebrik edin</h2>
+
+<p class="lead">
+AYMOD stand açılışı, yeni koleksiyon tanıtımı veya
+fuar katılımı yapan firmanıza özel kurumsal çiçek
+gönderimi planlanabilir.
+</p>
+
+<div class="checks">
+
+<div class="check">
+✓ AYMOD standına çiçek gönderimi
+</div>
+
+<div class="check">
+✓ Katılımcı firmaya kurumsal tebrik
+</div>
+
+<div class="check">
+✓ Fuar açılış çiçeği
+</div>
+
+<div class="check">
+✓ Şirket adına kart mesajı
+</div>
+
+<div class="check">
+✓ Salon ve stand bilgisiyle gönderim
+</div>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="wrap">
+
+<div class="label">
+AYMOD FUAR ÇİÇEK SAYFALARI
+</div>
+
+<h2>AYMOD için diğer hizmetler</h2>
 
 <div class="links">
-<a href="/ifm-fuar-standina-cicek/">İFM Fuar Standına Çiçek <span>→</span></a>
-<a href="/ifm-fuar-acilis-cicekleri/">İFM Fuar Açılış Çiçekleri <span>→</span></a>
-<a href="/ifm-kurumsal-cicek-gonderimi/">İFM Kurumsal Çiçek Gönderimi <span>→</span></a>
-<a href="/istanbul-fuar-merkezi-cicek-gonderimi/">İstanbul Fuar Merkezi Çiçek Gönderimi <span>→</span></a>
+
+<a href="/aymod-fuar-standina-cicek/">
+AYMOD Fuar Standına Çiçek
+<span>→</span>
+</a>
+
+<a href="/aymod-katilimci-firmaya-cicek-gonder/">
+AYMOD Katılımcı Firmaya Çiçek
+<span>→</span>
+</a>
+
+<a href="/aymod-fuari-acilis-cicegi/">
+AYMOD Fuarı Açılış Çiçeği
+<span>→</span>
+</a>
+
+<a href="/aymod-kurumsal-cicek-gonderimi/">
+AYMOD Kurumsal Çiçek Gönderimi
+<span>→</span>
+</a>
+
+<a href="/aymod-fuari-celenk-gonder/">
+AYMOD Fuarına Çelenk Gönder
+<span>→</span>
+</a>
+
+<a href="/aymod-fuari-cicek-siparisi/">
+AYMOD Fuarı Çiçek Siparişi
+<span>→</span>
+</a>
+
+<a href="/aymod-2026-nerede-nasil-gidilir/">
+AYMOD 2026 Nerede? Nasıl Gidilir?
+<span>→</span>
+</a>
+
+<a href="/aymod-2026-katilimci-firmalar/">
+AYMOD 2026 Katılımcı Firmalar
+<span>→</span>
+</a>
+
 </div>
+
+</div>
+</section>
+
+<section class="section white">
+<div class="wrap">
+
+<div class="label">
+SIK SORULAN SORULAR
+</div>
+
+<h2>AYMOD fuar çiçek gönderimi</h2>
+
+<div class="faq">
+
+<div class="faqItem">
+
+<h3>AYMOD fuarına çiçek nasıl gönderilir?</h3>
+
+<p>
+Alıcı firmanın adı, salon ve stand bilgilerini ileterek
+gönderimi planlayabilirsiniz.
+</p>
+
+</div>
+
+<div class="faqItem">
+
+<h3>AYMOD katılımcı firmasına şirket adına çiçek gönderilir mi?</h3>
+
+<p>
+Müşteri, bayi, üretici, tedarikçi veya iş ortağınıza
+şirketiniz adına kurumsal tebrik çiçeği gönderilebilir.
+</p>
+
+</div>
+
+<div class="faqItem">
+
+<h3>AYMOD stand açılışına çiçek gönderilebilir mi?</h3>
+
+<p>
+Fuar katılımı, stand açılışı veya yeni koleksiyon tanıtımı
+için tebrik çiçeği gönderimi planlanabilir.
+</p>
+
+</div>
+
+<div class="faqItem">
+
+<h3>Stand numarası gerekli mi?</h3>
+
+<p>
+Salon ve stand numarasının bilinmesi doğru firma noktasının
+belirlenmesini kolaylaştırır.
+</p>
+
+</div>
+
+</div>
+
 </div>
 </section>
 
 <section class="final">
 <div class="wrap">
-<h2>AYMOD Fuarına Çiçek Göndermek İster misiniz?</h2>
-<p>Firma adı, salon ve stand bilgisini iletin.</p>
+
+<h2>AYMOD fuarına çiçek göndermek mi istiyorsunuz?</h2>
+
+<p>
+Firma adı, salon ve stand bilgisini iletin.
+</p>
 
 <div class="actions" style="justify-content:center">
-<a class="primary" href="https://wa.me/905386858876">WhatsApp 0538 685 88 76</a>
-<a class="secondary" href="tel:+905386858876">📞 0538 685 88 76</a>
+
+<a class="btn" style="background:#111;color:white" href="https://wa.me/905386858876" aria-label="Mesaj gönder">
+💬
+<span>Çiçek Siparişi Ver</span>
+</a>
+
+<a class="btn" style="border:1px solid #111;color:#111" href="tel:+905386858876">
+📞 0538 685 88 76
+</a>
+
 </div>
+
 </div>
 </section>
 
-<a class="fixed" href="https://wa.me/905386858876">WhatsApp</a>
+<a class="fixedWa"
+href="https://wa.me/905386858876"
+aria-label="Mesaj gönder">💬</a>
 
 </body>
 </html>
